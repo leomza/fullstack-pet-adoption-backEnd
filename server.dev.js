@@ -20,7 +20,7 @@ app.use(express["static"](pathToPublicFolder));
 app.use(express.json());
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000'
+  origin: 'https://adoptyourpet.netlify.app'
 })); //To show information in the console when I call the server
 
 app.use(morgan('tiny')); //To read a cookie
